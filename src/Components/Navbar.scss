@@ -1,0 +1,34 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 100;
+
+  .nav-list {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 15px 25px;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    li {
+      cursor: pointer !important;
+      transition: background-color 0.5s ease, color 0.5s ease;
+      border-radius: 9px;
+      padding: 10px 15px;
+
+      &:hover {
+        color: var(--mainWhiteColor) !important;
+        background-color: var(--mainBlueColor) !important;
+      }
+
+      &:last-child {
+        color: var(--mainBlueColor);
+      }
+    }
+  }
+}

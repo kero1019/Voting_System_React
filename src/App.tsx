@@ -1,12 +1,11 @@
-import LandingPage from "./Components/LandingPage"
+import LandingPage from './Components/LandingPage';
 
 function App() {
-
   return (
     <div className="App-container">
-    <LandingPage />
+      <LandingPage />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

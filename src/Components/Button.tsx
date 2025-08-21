@@ -1,7 +1,15 @@
-import React from 'react'
+import './Button.scss';
 
-export default function Button({ children, style }) {
-    return (
-        <button className='orange-button' style={style}>{children}</button>
-    )
+type ButtonProps = {
+  children: React.ReactNode;
+  style: React.CSSProperties;
+};
+
+export default function Button(props: ButtonProps) {
+  const { children, style } = props;
+  return (
+    <button className="orange-button" style={style}>
+      {children}
+    </button>
+  );
 }
