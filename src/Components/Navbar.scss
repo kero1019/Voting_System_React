@@ -16,18 +16,18 @@
     font-weight: bold;
 
     li {
-      cursor: pointer !important;
+      cursor: pointer;
       transition: background-color 0.5s ease, color 0.5s ease;
       border-radius: 9px;
       padding: 10px 15px;
 
-      &:hover {
-        color: var(--mainWhiteColor) !important;
-        background-color: var(--mainBlueColor) !important;
-      }
-
       &:last-child {
         color: var(--mainBlueColor);
+      }
+
+      &:hover {
+        color: var(--mainWhiteColor);
+        background-color: var(--mainBlueColor);
       }
     }
   }

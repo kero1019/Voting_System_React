@@ -11,10 +11,9 @@ export default function LandingPage() {
         <img src={mainPhoto} alt="Photo" className="main-photo" />
 
         <div className="landing-button">
-          <Button style={{ padding: '2rem', fontSize: '2rem' }}>
-            Register
+          <Button style={{ padding: '1.5rem', fontSize: '2rem', margin:'10rem' }}>
+            Read More
           </Button>
-          {/* <Button>Register</Button> */}
         </div>
       </div>
     </div>

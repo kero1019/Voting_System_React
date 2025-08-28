@@ -4,7 +4,7 @@
   .landing-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
     height: 100vh;
 
@@ -16,6 +16,7 @@
       left: 0;
       z-index: -1;
       object-fit: contain;
+      object-position: left;
       background-color: var(--secondWhiteColor);
     }
   }
