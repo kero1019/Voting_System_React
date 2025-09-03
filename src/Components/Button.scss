@@ -1,13 +1,15 @@
+.button{
+  padding: 1.5rem;
+  font-size: 2rem;
+  border-radius: 9px;
+  border-style: none;
+}
 .orange-button {
   background-color: var(--orangeColor);
-  border-radius: 9px;
   color: var(--mainWhiteColor);
-  border-style: none;
 }
 
 .blue-button {
   background-color: var(--mainBlueColor);
-  border-radius: 9px;
   color: var(--mainFontColor);
-  border-style: none;
 }

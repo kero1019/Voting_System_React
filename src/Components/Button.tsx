@@ -2,13 +2,14 @@ import './Button.scss';
 
 type ButtonProps = {
   children: React.ReactNode;
-  style: React.CSSProperties;
+  // style: React.CSSProperties;
+  className:string;
 };
 
 export default function Button(props: ButtonProps) {
-  const { children, style } = props;
+  const { children,className } = props;
   return (
-    <button className="blue-button" style={style}>
+    <button className={className}>
       {children}
     </button>
   );

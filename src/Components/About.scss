@@ -1,0 +1,30 @@
+.about-container{
+  height:100vh;
+  background-color:var(--mainWhiteColor);
+  display:flex;
+  align-items: center;
+  gap:3rem;
+  position: relative;
+  color: var(--mainFontColor);
+
+  h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 7rem;
+    text-align: center;
+  }
+
+  p:first-of-type{
+    background-color:var(--orangeColor);
+    top:10%;
+    left:10%;
+    position:absolute;
+    width:5px;
+    height: 80%;
+  }
+
+  p:last-of-type{
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+}

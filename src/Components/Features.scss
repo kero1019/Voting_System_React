@@ -1,0 +1,43 @@
+.features-container {
+  height: 100vh;
+  background-color: var(--secondWhiteColor);
+  display: flex;
+  gap:3rem;
+  position: relative;
+  color:var(--mainFontColor);
+  
+  > p{
+    background-color: var(--mainBlueColor);
+    width: 5px;
+    height:80%;
+    position: absolute;
+    top:10%;
+    left:10%;
+  }
+  
+  h2{
+    font-size: 7rem;
+      writing-mode:vertical-lr;
+      transform: rotate(180deg);
+      text-align: center; // rotate text by 180 degrees to make it vertical-lr
+  }
+  .features-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    gap:3rem;
+
+    .feature{
+      display:flex;
+      align-items: center;
+      gap:2rem;
+      font-size: 3rem;
+  
+      .icon{
+        color:var(--orangeColor);
+        font-size:4rem;
+      }
+    }
+  }
+}
