@@ -1,5 +1,5 @@
 import './Navbar.scss';
-
+import {Link} from 'react-router-dom'
 export default function Navbar() {
   const login = true;
   return (
@@ -8,7 +8,7 @@ export default function Navbar() {
         <li>Voting History</li>
         <li>Personal Info</li>
         <li>Elections</li>
-        <li>Home</li>
+        <li><Link to={"/home"}>Home</Link></li>
         <li>{login? "Logout": "Login"}</li>
       </ul>
     </nav>
