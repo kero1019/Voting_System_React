@@ -1,29 +1,31 @@
-.about-container{
-  height:100vh;
-  background-color:var(--mainWhiteColor);
-  display:flex;
+.about-container {
+  height: 100vh;
+  background-color: var(--mainWhiteColor);
+  display: flex;
   align-items: center;
-  gap:3rem;
+  gap: 5rem;
   position: relative;
   color: var(--mainFontColor);
 
-  h1{
+  h1 {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: 7rem;
     text-align: center;
+    height: 100%;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -2rem;
+      top: 10%;
+      width: 5px;
+      height: 80%;
+      background-color: var(--orangeColor);
+    }
   }
 
-  p:first-of-type{
-    background-color:var(--orangeColor);
-    top:10%;
-    left:10%;
-    position:absolute;
-    width:5px;
-    height: 80%;
-  }
-
-  p:last-of-type{
+  p {
     font-size: 2.5rem;
     line-height: 4rem;
   }

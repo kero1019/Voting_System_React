@@ -6,7 +6,6 @@ export default function Features() {
   return (
     <div className='features-container'>
       <h2>Features</h2>
-      <p></p>
       <div className="features-content">
         <div className="feature">
           <FontAwesomeIcon className='icon' icon={faLock} />
